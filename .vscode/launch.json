@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "http://console.log(convertToCelsius);",
+            "request": "launch",
+            "url": "http://console.log(convertToCelsius);"
+        }
+    ]
+}

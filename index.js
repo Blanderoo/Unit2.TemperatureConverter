@@ -7,12 +7,12 @@
  */
 function convertToCelsius(fahren) {
   fahren = (celc * 9/5) + 32;
-  return fahren;
-}
+  returns (fahren);
+};
   function convertToFahrenheit(celc) {
   celc = (fahren -32) * 5/9;
-  return celc;
-}
+  returns (celc);
+};
 console.log(convertToCelsius);
 console.log(convertToFahrenheit);
 
@@ -32,10 +32,9 @@ console.log(convertToFahrenheit);
  * @param {number} celc
  */
 function createMessage(fahren, celc) {
-if (faren == 32) {
+if (faren == 32)
   console.log("It feels very cold")
-} faren < celc ()
-}
+};
 
 
 /**
