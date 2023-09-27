@@ -6,13 +6,15 @@
  * @returns {number} the number of degrees C
  */
 function convertToCelsius(fahren) {
-  /**
-  * celcius = (fahrenheit - 32) * 5/9;
-  * fahren = (celcius * 9/5) +32;
-  *  console.log(fahren)
-  * return celc()
-  */ 
+  fahren = (celc * 9/5) + 32;
+  return fahren;
 }
+  function convertToFahrenheit(celc) {
+  celc = (fahren -32) * 5/9;
+  return celc;
+}
+console.log(convertToCelsius);
+console.log(convertToFahrenheit);
 
 /**
  * Takes both numbers (F, C) and display a message with
@@ -30,7 +32,9 @@ function convertToCelsius(fahren) {
  * @param {number} celc
  */
 function createMessage(fahren, celc) {
-if faren < celc 
+if (faren == 32) {
+  console.log("It feels very cold")
+} faren < celc ()
 }
 
 
