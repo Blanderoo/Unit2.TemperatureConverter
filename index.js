@@ -42,7 +42,9 @@ if (faren == 32)
  * @param {number} limit
  * @returns {number} a number between 0 and the int passed in
  */
-function rand(limit) {}
+function rand(limit) {
+  
+}
 
 // -------------------- DONT NOT CHANGE THE CODE BELOW ---------------------- //
 
