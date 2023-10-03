@@ -6,12 +6,13 @@
  * @returns {number} the number of degrees C
  */
 function convertToCelsius(fahren) {
-  fahren = (celc * 9/5) + 32;
-  returns (fahren);
+ let fahren = (celc * 9/5) + 32;
+  returns (fahren)
 };
-  function convertToFahrenheit(celc) {
-  celc = (fahren -32) * 5/9;
-  returns (celc);
+
+function convertToFahrenheit(celc) {
+ // let celc = (fahren - 32) * 5/9;
+  returns (fahren - 32) * 5/9
 };
 console.log(convertToCelsius);
 console.log(convertToFahrenheit);
@@ -32,9 +33,12 @@ console.log(convertToFahrenheit);
  * @param {number} celc
  */
 function createMessage(fahren, celc) {
-if (faren == 32)
-  console.log("It feels very cold")
-};
+if (faren == 32) {
+  console.log("It feels very cold");
+} else if (faren = )
+console.log("Lets check what the weather's like!");
+}
+}; 
 
 
 /**
@@ -43,6 +47,7 @@ if (faren == 32)
  * @returns {number} a number between 0 and the int passed in
  */
 function rand(limit) {
+  returns(Number)
   
 }
 
