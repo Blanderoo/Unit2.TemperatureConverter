@@ -6,9 +6,8 @@
  * @returns {number} the number of degrees C
  */
 function convertToCelcius(fahren) {
-  let fahren = (celc * 9/5) + 32;
-  console.log(convertToCelcius);
-  //return fahren;  
+  //let fahren = (celc * 9/5) + 32;
+  //returns (fahren);  
 }
 
 function convertToFahrenheit(celc) {
@@ -16,6 +15,7 @@ function convertToFahrenheit(celc) {
 //returns (fahren - 32) * 5/9;
 }
 
+console.log(convertToCelcius);
 console.log(convertToFahrenheit);
 
 /**
